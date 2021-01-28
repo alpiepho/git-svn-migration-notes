@@ -145,3 +145,13 @@ Then to commit, we needed to copy the newproject00/.git/config file to newprojec
 
 # Migrate To Git (from TFS) Thoughts
 
+Recently another project has the need to transition from Microsoft TFS (Teams Foundations S...).  From
+some breif research, it appears TFS has some build in migration to git that this team may have used
+for migrating other projects.  Appearently they also ran into size limits in the destination Git system (Bitbucket).
+
+Also from that search, I found the following links:<br>
+- https://www.methodsandtools.com/tools/gittfs.php
+- https://blog.cellenza.com/devops/migrating-from-tfvc-to-git/
+
+This seems like a very similar process to git-svn above.  The key issue with this type of migration is
+the removal of large binary files, even those "deleted".
