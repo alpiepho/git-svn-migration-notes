@@ -67,7 +67,7 @@ Date:   Tue Sep 8 21:33:58 2020 +0000
 ### Full Migration
 I attempted the full git-svn migration.  It ran for 16 hours, produced 23GB, but failed on an unknown author.  I will re-attempt at some later date.
 <pre>
-time git svn clone --authors-file=authors.txt  svn+ssh://joesomebody@192.168.127.42/repos/products/dnsManager
+time git svn clone --authors-file=authors.txt  svn+ssh://joesomebody@192.168.127.42/repos/products/Manager
 </pre>
 
 ## How git-svn allows continued access to svn
