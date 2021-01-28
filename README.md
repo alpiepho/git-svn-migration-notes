@@ -23,7 +23,6 @@ dang = dang <dang>
 bobj = Bob Jones <bob.jones@oldco.com>
 ian = ian <ian>
 jason = jason <jason>
-jgersch = jgersch <jgersch>
 rperez = rperez <rperez>
 trevor = trevor <trevor>
 wade = wade smith <wade.smith@oldco.com>
@@ -44,7 +43,7 @@ git commit -m "initial commit"
 svn-git has a method to get a single branch with all the history, [link](https://gist.github.com/trodrigues/1023167). The command line is below.  This produced a single git repo of 6.4GB, with all the history.
 
 <pre>
-time git svn clone --authors-file=authors.txt -T branches/newproject svn+ssh://joesomebody@192.168.127.42/repos/products/dnsManager newproject
+time git svn clone --authors-file=authors.txt -T branches/newproject svn+ssh://joesomebody@192.168.127.42/repos/products/Manager newproject
 </pre>
 Snippet of history:
 <pre>
@@ -53,7 +52,7 @@ Date:   Fri Nov 6 17:52:00 2020 +0000
 
     branching newproject (1.19 dev branch) from the prevproject 1.18.1 D tag point r73249
     
-    git-svn-id: svn+ssh://192.168.127.42/repos/products/dnsManager/branches/newproject@73487 48e3370b-ab0b-0410-a26a-c6b7e01d70ed
+    git-svn-id: svn+ssh://192.168.127.42/repos/products/Manager/branches/newproject@73487 48e3370b-ab0b-0410-a26a-c6b7e01d70ed
 
 commit 63800184b13b7a6cd2a828d53acfd4977eb5cb24
 Author: Bob Jones <Bob.Jones@oldco.com>
@@ -61,7 +60,7 @@ Date:   Tue Sep 8 21:33:58 2020 +0000
 
     Updated build directory to match the latest ISO ID
     
-    git-svn-id: svn+ssh://192.168.127.42/repos/products/dnsManager/branches/prevproject@73249 48e3370b-ab0b-0410-a26a-c6b7e01d70ed
+    git-svn-id: svn+ssh://192.168.127.42/repos/products/Manager/branches/prevproject@73249 48e3370b-ab0b-0410-a26a-c6b7e01d70ed
     ...
 </pre>
 
